@@ -1,0 +1,54 @@
+
+
+@import url('https://fonts.cdnfonts.com/css/freesans');
+
+  /* FIRST TO THIS STEP FOR EVERY PRIJECT */              
+                
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    color:white;
+
+    font-family: 'FreeSans', sans-serif;
+    height: 100vh;
+    /*INCRESE THE SIZE OF THE LETTERS*/
+    font-weight: 10px;
+}
+
+
+.counter_thedata{
+    /* DISPLAY THE CONTENT ONE BESIDE THE OTHER*/
+    display: flex;
+    /*ADJUST THE CONTENT IN CENTER OF THE PAGE IN THE TOP*/
+    justify-content: center;
+    /*SPACE BETWEEN THE BROESER AND CONTENT */
+    margin: 250px auto;
+    /* SPACE BITWEEN THE CONTENTS*/
+    justify-content: space-between;
+    /* ALL ITEMS ARE ALIGNED IN THE SENTER*/
+    align-items: center;
+    width: 400px;
+    background-color:blueviolet;
+    border-radius: 20px;
+    /*IS GIVES SPACE BETWWEN THE CONTENT TO CONTENT*/
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgb(217, 255, 0);
+}
+
+.btn{
+    
+    font-size: 100px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+}
+.add
+{
+    font-size: 100px;
+}
+
